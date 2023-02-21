@@ -23,7 +23,7 @@ public class XMLAddress {
    
    public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException {
       
-      String searchText = "부전";
+      String searchText = "롯데";
       
       StringBuilder urlBuilder = new StringBuilder("http://openapi.epost.go.kr/postal/retrieveNewZipCdService/retrieveNewZipCdService/getNewZipCdList"); /*URL*/
       urlBuilder.append("?" + URLEncoder.encode("serviceKey","UTF-8") + "=" + serviceKey); /*Service Key*/
